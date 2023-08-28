@@ -1,0 +1,3 @@
+Los ingenieros de sistemas se enfocan principalmente en usuarios y dominios,
+mientras que los ingenieros de software se enfocan principalmente en desarrollar 
+software potente e intuitivo para el usuario final
