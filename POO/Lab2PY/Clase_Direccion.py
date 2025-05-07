@@ -45,7 +45,7 @@ class Direccion():
         return self.__apto
         
     def __str__(self):
-        return "\nCalle: " + str(self.__calle) + "\n" + "Nomenclatura: " + str(self.__nomenclatura) + "\n" + "Barrio: " + str(self.__barrio) + "\n" + "Ciudad: " + str(self.__ciudad) + "\n" + "Edificio: " + str(self.__edificio) + "\n" + "Apto: " + str(self.__apto)
+        return "\nCalle: " + str(self.__calle) + "\nNomenclatura: " + str(self.__nomenclatura) + "\nBarrio: " + str(self.__barrio) + "\nCiudad: " + str(self.__ciudad) + "\nEdificio: " + str(self.__edificio) + "\nApto: " + str(self.__apto)
     
 #tomas = Direccion("calle", "nomen", "trianon", "envigado", "amarillo", 201)
 

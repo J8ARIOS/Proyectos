@@ -1,5 +1,6 @@
-class Usuario:
-    def __init__(self,nombre, Id, fecha_nacimiento, ciudad_nacimiento, tel, email, direccion):
+class Usuario():
+    def __init__(self,nombre, Id, fecha_nacimiento , ciudad_nacimiento, tel, email, direccion):
+        
         self.__nombre = nombre
         self.__Id = Id
         self.__fecha_nacimiento = fecha_nacimiento
@@ -51,7 +52,7 @@ class Usuario:
         return self.__direccion
     
     def __str__(self):
-        return "\nNombre: " + str(self.__nombre) + "\n" + "ID: " + str(self.__Id) + "\n" + "Fecha de nacimiento: " + str(self.__fecha_nacimiento) + "\n" + "Ciudad de nacimiento: " + str(self.__ciudad_nacimiento) + "\n" + "Telefono: " + str(self.__tel) + "\n" + "E-mail: " + str(self.__email) + "\n" + "Direccion: " + str(self.__direccion)
+        return "\nNombre: " + str(self.__nombre) + "\nID: " + str(self.__Id) + "\nFecha de nacimiento: " + str(self.__fecha_nacimiento) + "\nCiudad de nacimiento: " + str(self.__ciudad_nacimiento) + "\nTelefono: " + str(self.__tel) + "\nE-mail: " + str(self.__email) + "\nDireccion: " + str(self.__direccion)
 
 
 

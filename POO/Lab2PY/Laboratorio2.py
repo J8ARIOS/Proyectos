@@ -1,9 +1,9 @@
 from Clase_Fecha import Fecha
-from Clase_Usuario import Usuario
+from POO.Lab2PY.Clase_Usuario import Usuario
 from Clase_Direccion import Direccion
 
 Fecha_nacimiento = Fecha(23, 7, 2006)
-print(Fecha_nacimiento)
+print("\n", Fecha_nacimiento)
 
 Direccion_casa = Direccion("Calle 47", "Sur #39B05", "Trianon", "Envigado", "El amarillo", 201 )
 print(Direccion_casa)
@@ -15,7 +15,7 @@ print(Usuario1)
 nombre = input("\nIngrese su nombre: ")
 Id = int(input("Ingrese su ID: "))
 Fecha_nac = input("Ingrese su fecha de nacimiento: ")
-ciudad = input("Ingrese su ciudad de residencia: ")
+ciudad = input("Ingrese su ciudad de nacimiento: ")
 telefono = int(input("Ingrese su numero de telefono: "))
 Email = input("Ingrese su E-mail: ")
 direcc = input("Ingrese su direccion: ")
