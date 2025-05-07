@@ -78,6 +78,8 @@ public class Laboratorio02{
             String email = input.nextLine();
             usuario2.setEmail(email);
 
+            System.out.println("\nA continuacion le pediremos sus datos de residencia");
+
             Direccion direccion_usuario2 = new Direccion();
             System.out.print("\nIngrese la calle: ");
             String calle = input.nextLine();

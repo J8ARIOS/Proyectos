@@ -52,7 +52,7 @@ class Usuario():
         return self.__direccion
     
     def __str__(self):
-        return "\nNombre: " + str(self.__nombre) + "\nID: " + str(self.__Id) + "\nFecha de nacimiento: " + str(self.__fecha_nacimiento) + "\nCiudad de nacimiento: " + str(self.__ciudad_nacimiento) + "\nTelefono: " + str(self.__tel) + "\nE-mail: " + str(self.__email) + "\nDireccion: " + str(self.__direccion)
+        return "\nNombre: " + str(self.__nombre) +"\nID: " + str(self.__Id) + "\nFecha de nacimiento: " + str(self.__fecha_nacimiento) + "\nCiudad de nacimiento: " + str(self.__ciudad_nacimiento) + "\nTelefono: " + str(self.__tel) + "\nE-mail: " + str(self.__email) + "\nDireccion de residencia: " + str(self.__direccion)
 
 
 

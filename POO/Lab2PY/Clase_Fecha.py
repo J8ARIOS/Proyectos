@@ -23,7 +23,7 @@ class Fecha:
         self.__aa=aa
 
     def __str__(self):
-        return str(self.__dd)+"-"+str(self.__mm)+"-"+str(self.__aa)
+        return str(self.__dd)+"/"+str(self.__mm)+"/"+str(self.__aa)
     
 
 
